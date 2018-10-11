@@ -77,5 +77,10 @@ namespace TutorialTextEditor
         {
             richTextBox1.Paste();
         }
+
+        private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.SelectAll();
+        }
     }
 }
